@@ -1,0 +1,92 @@
+
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+}
+.card {
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+.form-control:focus,
+.form-select:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+.btn-outline-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  color: white;
+}
+footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.job-card {
+  transition: transform 0.2s;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.badge {
+  font-weight: 500;
+  padding: 0.35em 0.65em;
+}
+
+.alert {
+  border-radius: 0.5rem;
+}
+
+.table th {
+  font-weight: 600;
+  color: #495057;
+}
+@media (max-width: 768px) {
+  .card-body {
+    padding: 1rem;
+  }
+}
+
+.hero {
+  /* background-image: url("../img/oficina.jpg"); */
+  background-image: url("https://cdn.pixabay.com/photo/2015/02/05/09/17/office-624749_1280.jpg");
+  width: 100%;
+}
